@@ -1,0 +1,45 @@
+.search_box{
+    background-image: url('../images/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-column: 1/7;
+    grid-row: 4/1;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+.search_box form{
+    width: 40%;
+    display: flex;
+}
+.search_box input,button{
+    height: 4rem;
+    border: 0;
+    padding: 1rem;
+    text-align: center;
+}
+.search_box button{
+    background:var(--VeryDarkGray) ;
+    width: 10%;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_box input{
+    width: 90%;
+    border-radius: 8px 0 0 8px;
+    height: 3.9rem;
+    font-size: 24px;
+    text-align: left;
+}
+.search_box svg {
+    width: 14px;
+}
+.search_box h1{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+  
