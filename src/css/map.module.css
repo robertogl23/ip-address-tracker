@@ -1,0 +1,6 @@
+.map_box{
+    background: darkmagenta;
+    grid-row: 4/9;
+    grid-column: 1/7;
+}
+
